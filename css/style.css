@@ -3,6 +3,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -95,6 +97,10 @@ p {
     color: #fff;
 }
 
+.header_menu ul li a.menu_ativo{
+    color: #fff;
+}
+
 img {
     display: block;
 }
@@ -160,6 +166,8 @@ img {
     letter-spacing: .1em;
     text-transform: uppercase;
 }
+
+
 
 /*O Início de uma caminhada!*/
 
@@ -265,6 +273,7 @@ img {
 
 .objetivo_lista{
     padding-top: 20px;
+    overflow: auto;
 }
 
 .objetivo_lista li{
@@ -352,4 +361,103 @@ img {
     width: 100%;
     background: #79D3F8;
     padding: 20px 0;
+}
+
+/*Sobre*/
+
+.interna_sobre{
+    background: url("../img/sobre/bg-sobre.jpg") no-repeat center;
+    width: 100%;
+    padding-top: 40px;
+    margin-top: 83px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+}
+
+.interna_sobre h1{
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.interna_sobre h1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 10px auto;
+}
+
+.sobre-historia{
+    padding-top: 40px;
+}
+
+.sobre-historia p, .sobre-historia ul li{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 40px;
+}
+
+.sobre-historia ul{
+    margin-bottom: 60px;
+}
+
+
+.sobre-historia ul li{
+    margin-bottom: 0.45em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto-leo{
+    padding-top: 40px;
+}
+
+.subtitulo-interno{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+
+.sobre-historia .texto-experiencia{
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 520px;
+    max-height: 127px;
+    margin-top: 84px;
+}
+
+.sobre-historia .texto-experiencia2{
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 520px;
+    max-height: 127px;
+    margin-top: 44px;
+}
+
+.sobre-historia .experiencia-subtitulo{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
