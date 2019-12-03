@@ -30,6 +30,16 @@ p {
     border-color: #000;
 }
 
+.btn.btn-branco{
+    color: #79D3F8;
+    border-color: #79D3F8;
+}
+
+.btn.btn-branco:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
 .subtitulo{
     font-weight: bold;
     font-size: 24px;
@@ -85,6 +95,10 @@ p {
     color: #fff;
 }
 
+img {
+    display: block;
+}
+
 /* Introdução */
 
 .introducao {
@@ -92,7 +106,7 @@ p {
     height: 380px;
     background: url("../img/bg-index.jpg") no-repeat center;
     background-size: cover;
-    margin-top: 87px;
+    margin-top: 83px;
     text-align: center;
     padding-top: 78px;
 }
@@ -109,6 +123,11 @@ p {
     margin-bottom: 50px;
 }
 
+.quote-externo.quote-branco{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
 .quote-externo p{
     font-style: italic;
     text-transform: uppercase;
@@ -122,6 +141,16 @@ p {
     background: #000;
     margin: 10px auto;
 }
+
+.quote-externo.quote-branco p:before, .quote-externo.quote-branco p:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
+
 
 
 .quote-externo cite{
@@ -165,11 +194,17 @@ p {
     padding: 10px 20px 20px 20px;
 }
 
-.produtos_icone{
+.estudos_icone{
     background: #000;
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.estudos_icone .imagem_estudo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .call{
@@ -182,3 +217,139 @@ p {
     margin-bottom: 20px;
 }
 
+/*Portfólio*/
+
+.portfolio{
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo{
+    color: #79D3F8;
+}
+
+.portfolio .subtitulo:after{
+    background: #79D3F8;
+}
+
+.portfolio_lista li:last-child{
+    margin-top: 20px;
+}
+
+.portfolio .call p{
+    color: #fff;
+}
+
+/*Objetivo*/
+
+.objetivo{
+    padding: 40px 0;
+}
+
+.objetivo:after{
+    content: "";
+    width: 626px;
+    height: 80px;
+    display: block;
+    background: url("../img/svg/marca.svg") no-repeat center;
+    position: absolute;
+    top: 162.5px;
+    right: 166.5px;
+    z-index: -1;
+}
+
+.objetivo img{
+    margin: 0 auto;
+}
+
+.objetivo_lista{
+    padding-top: 20px;
+}
+
+.objetivo_lista li{
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.objetivo_lista li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.objetivo_lista li h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 10px auto;
+}
+
+/*Quebra*/
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url(../img/imagem-footer-index.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/*footer*/
+
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3{
+    font-size: 18px;
+    line-height: 20px;
+    color: #79D3F8;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #79D3F8;
+    margin: 5px 0 10px 0;
+}
+
+.footer_tecnologias{
+    padding-right: 60px;
+}
+
+.footer_contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_redes ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a img:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.copy{
+    width: 100%;
+    background: #79D3F8;
+    padding: 20px 0;
+}
